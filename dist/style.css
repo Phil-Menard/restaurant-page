@@ -1,6 +1,6 @@
 body    {
     margin: 0;
-    background-image: url(./background.jpg);
+    background-image: url(./images/background.jpg);
 }
 
 #content    {
@@ -45,4 +45,12 @@ li  {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.burgerImage    {
+    width: 80%;
+    height: 90%;
+    background-image: url(./images/photo-index.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
 }
