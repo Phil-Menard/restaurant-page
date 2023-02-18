@@ -23,6 +23,7 @@ menu.addEventListener('click', function()   {
 })
 
 about.addEventListener('click', function()   {
+    console.log(document.querySelector('.main'));
     content.removeChild(document.querySelector('.main'));
     content.appendChild(createMainAbout());
 })

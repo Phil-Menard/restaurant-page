@@ -54,3 +54,44 @@ li  {
     background-repeat: no-repeat;
     background-size:cover;
 }
+
+.menus  {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+.description    {
+    color: white;
+}
+
+.photo-burger   {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 640px;
+    height: 427px;
+}
+
+.cheese {
+    background-image: url(./images/cheeseburger.jpg);
+}
+
+.avocado    {
+    background-image: url(./images/avocado-burger.jpg);
+}
+
+.meaty    {
+    background-image: url(./images/meaty-burger.jpg);
+}
+
+.about  {
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about > p  {
+    width: 80%;
+}
